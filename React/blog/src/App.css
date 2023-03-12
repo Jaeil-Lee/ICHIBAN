@@ -2,6 +2,16 @@
   text-align: center;
 }
 
+/* 내가 작성한 부분  */
+.nav-bc {
+ display: flex;
+ background-color: rgb(238, 172, 183);
+ width: 100%;
+ color: white;
+ padding-left: 20px;
+ justify-content: center;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
