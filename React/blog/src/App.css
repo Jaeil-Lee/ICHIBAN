@@ -2,6 +2,15 @@
   text-align: center;
 }
 
+div {
+  box-sizing: border-box;
+}
+.list {
+  padding-left: 20px;;
+  text-align: left;
+  border-bottom: 1px solid gray;
+}
+
 /* 내가 작성한 부분  */
 .nav-bc {
  display: flex;
@@ -10,6 +19,13 @@
  color: white;
  padding-left: 20px;
  justify-content: center;
+ position: relative;
+}
+.nav-bc h5{
+  color: rgb(249, 231, 204);
+  top: 31px;
+  right: 20px;
+  position: absolute;
 }
 
 .App-logo {
